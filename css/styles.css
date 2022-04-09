@@ -3,6 +3,25 @@
   --title-text-color: #757575;
   --complementary-text-color: #ffffff;
   --accent-color: #2196f3;
+  --typical-gap: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
 }
 
 body {
@@ -15,6 +34,14 @@ ul {
 .link {
   text-decoration: none;
 }
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid green; 
+}
+
 /*hover elements*/
 a.header-link.link:hover,
 a.header-link.link:focus,
@@ -24,6 +51,7 @@ a.header-tel.link:hover,
 a.header-tel.link:focus {
   color: var(--accent-color);
 }
+
 /*logo*/
 .header-prelogo {
   font-family: 'Raleway';
@@ -66,7 +94,9 @@ a.header-link.current.link {
 /*hero*/
 .hero {
   background-color: #2f303a;
-}
+  padding: 200px 0 200px;
+  }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -76,6 +106,7 @@ a.header-link.current.link {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--complementary-text-color);
+  max-width: 696px;
 }
 /*button*/
 .hero-btn {
@@ -90,11 +121,10 @@ a.header-link.current.link {
   letter-spacing: 0.06em;
   color: var(--complementary-text-color);
   background-color: var(--accent-color);
-}
+  }
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--complementary-text-color);
-  background-color: #188CE8;
 }
 .text-heading {
   font-weight: 700;
@@ -103,9 +133,16 @@ a.header-link.current.link {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  margin-bottom: var(--typical-gap);
 }
-
+/*Text*/
+.text {
+  padding: 92px 0px 94px;
+}
 /*features*/
+.features {
+  padding: 88px 0px 94px;
+}
 .features-title {
   font-weight: 700;
   font-size: 36px;
@@ -114,17 +151,19 @@ a.header-link.current.link {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-/*Text*/
 .text-after-heading {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: var(--typical-gap);
 }
 /*Наша команда*/
 .work {
   background-color: #f5f4fa;
+  padding: 95px auto 0px;
+
 }
 .work-title {
   font-weight: 700;
@@ -156,7 +195,6 @@ a.header-link.current.link {
 .footer {
   background-color: #2f303a;
 }
-
 /*Страница Портфолио*/
 /*Фильтр кнопок*/
 .control-btn {
@@ -183,7 +221,6 @@ a.header-link.current.link {
   margin: -1px;
   border: 0;
   padding: 0;
-  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
