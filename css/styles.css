@@ -289,6 +289,7 @@ a.header-link.current.link {
 }
 
 .work-after-heading {
+  padding-bottom: 30px;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 19px;
@@ -364,8 +365,7 @@ padding: 94px 0 34px;
 }
 
 .about-title {
-  padding-bottom: 4px;
-  margin-top: 20px;
+  padding: 20px 0 4px;
 
   color: var(--primary-text-color);
   
@@ -401,6 +401,7 @@ padding: 94px 0 34px;
 /*Наша команда*/
 
 .work-heading {
+  padding: 30px 0 10px;
   margin-bottom: var(--typical-gap);
 }
 
