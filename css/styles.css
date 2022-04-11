@@ -242,61 +242,7 @@ a.header-link.current.link {
   letter-spacing: 0.03em;
 }
 
-/*Наша команда*/
 
-.work {
-  background-color: var(--complementary-text-color);
-  padding: 0 0 94px;
-  margin: 0 0;
-}
-
-.work-list {
-  display: flex;
-  justify-content: space-between;
-
-  background-color: var(--complementary-text-color);
-}
-
-.work-item {
-  width: 270px;
-  border-bottom: 1px solid #EEEEEE;
-}
-.work-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.work-title {
-  padding: 120px 0 50px;
-
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.work-heading {
-  color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.work-after-heading {
-  padding-bottom: 30px;
-  color: var(--title-text-color);
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 
 /*Footer*/
 
@@ -402,9 +348,59 @@ padding: 94px 0 34px;
 
 /*Наша команда*/
 
+.work {
+  background-color: var(--complementary-text-color);
+  padding: 0 0 94px;
+  margin: 0 0;
+}
+
+.work-title {
+  padding: 120px 0 50px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.work-list {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--complementary-text-color);
+}
+
+.work-item {
+  text-align: center;
+  width: 270px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
 .work-heading {
   padding: 30px 0 10px;
   margin-bottom: var(--typical-gap);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.work-after-heading {
+  padding-bottom: 30px;
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*Footer logo
