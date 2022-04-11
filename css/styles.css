@@ -138,8 +138,7 @@ a.header-link.current.link {
   }
 
 .hero-title {
-  max-width: 696px;
-  padding: 200px 0 30px;
+  padding: 200px 452px 30px;
   color: var(--complementary-text-color);
   text-align: center;
   font-weight: 900;
