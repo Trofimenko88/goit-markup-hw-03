@@ -10,11 +10,10 @@
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red; 
+  margin: 0 auto; 
 }
 
 p,
@@ -80,13 +79,17 @@ a.header-tel.link:focus {
 }
 
 /*main-header*/
+
+
 .main-header {
 display: flex;
 align-items: center;
+height: 80px;
+border-bottom: 1px solid #ECECEC;
 }
 
 
-/*header*/         
+/*header*/   
 
 .header-list {
   display: flex;
@@ -96,8 +99,8 @@ align-items: center;
   margin-right: 50px;
 }
 
+/*navigation menu*/
 
-     /*navigation menu*/
 .header-mail-list {
   display: flex;
   margin-left: auto;
@@ -128,19 +131,17 @@ a.header-link.current.link {
 
 
 /*hero*/
+
 .hero {
   background-color: #2f303a;
+  text-align: center;
   }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
-  margin-left: 237px;
-  text-align: center;
   max-width: 696px;
-
+  padding: 200px 0 30px;
   color: var(--complementary-text-color);
-
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -152,7 +153,10 @@ a.header-link.current.link {
 /*button*/
 
 .hero-btn {
+  margin-bottom: 200px;
+  display: inline-block;
   padding: 10px 32px;
+  min-width: 200px;
 
   color: var(--complementary-text-color);
   background-color: var(--accent-color);
@@ -162,11 +166,10 @@ a.header-link.current.link {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
-  display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  }
+}
+
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -190,11 +193,30 @@ a.header-link.current.link {
   padding: 92px 0  94px;
 }
 
+.text-list {
+  display: flex;
+  align-items: center;
+}
+
+.text-item:not(:last-child) {
+  margin-right: 30px; 
+}
+
 /*features*/
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px; 
+}
+
 
 .features {
   margin-top: 0;
-  margin-bottom: 95px;
+  margin-bottom: 25px;
 }
 
 .features-title {
@@ -222,20 +244,28 @@ a.header-link.current.link {
 /*Наша команда*/
 
 .work {
-  background-color: #f5f4fa;
-  padding: 95px auto 0px;
+  background-color: var(--complementary-text-color);
+  padding: 0 0 94px;
+  margin: 0 0;
 }
 
 .work-list {
+  display: flex;
+  justify-content: space-between;
+
   background-color: var(--complementary-text-color);
 }
 
 .work-item {
   width: 270px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .work-title {
-  padding: 94px 0 50px;
+  padding: 120px 0 50px;
 
   color: var(--primary-text-color);
 
@@ -259,7 +289,6 @@ a.header-link.current.link {
 
 .work-after-heading {
   color: var(--title-text-color);
-  
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
@@ -276,6 +305,15 @@ a.header-link.current.link {
     /*Страница Портфолио*/
 
 /*Фильтр кнопок*/
+
+.filter-list {
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .control-btn {
   padding: 6px 22px;
@@ -318,6 +356,12 @@ padding: 94px 0 34px;
 
 /*Разделы работ*/
 
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom:94px ;
+}
+
 .about-title {
   padding-bottom: 4px;
 
@@ -330,8 +374,14 @@ padding: 94px 0 34px;
   letter-spacing: 0.06em;
 }
 
-.about-section {
-  width: 322px 70px;
+.about-item {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
+}
+.about-item:nth-child(3n){
+  margin-right: 0;
 }
 
 .about-pre-title {
@@ -341,7 +391,6 @@ padding: 94px 0 34px;
   line-height: 1.87;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
-  
 }
 
 /*Наша команда*/
@@ -351,6 +400,9 @@ padding: 94px 0 34px;
 }
 
 /*Footer logo*/
+.footer {
+  padding: 60px 0 60px;
+}
 
 .footer-prelogo {
   color: #2196f3;
