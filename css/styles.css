@@ -405,9 +405,13 @@ padding: 94px 0 34px;
   margin-bottom: var(--typical-gap);
 }
 
-/*Footer logo*/
+/*Footer logo
 .footer {
   padding: 60px 0 60px;
+}
+*/
+.container footer footer {
+  padding-top: 60px;
 }
 
 .footer-prelogo {
@@ -433,6 +437,13 @@ padding: 94px 0 34px;
 
 /*Footer adress*/
 
+.footer-logo-all {
+  padding: 60px 0 0;
+}
+
+.footer-adress {
+  padding: 20px 0 60px;
+}
 .footer-adress {
   color: #ffffff;
 
@@ -447,7 +458,6 @@ padding: 94px 0 34px;
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
-
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
