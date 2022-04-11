@@ -140,6 +140,9 @@ a.header-link.current.link {
 .hero-title {
   padding: 200px 452px 30px;
   color: var(--complementary-text-color);
+  min-width: 452px;
+
+
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -177,7 +180,6 @@ a.header-link.current.link {
 }
 .text-heading {
   margin-bottom: var(--typical-gap);
-  
   color: var(--primary-text-color);
   
   font-weight: 700;
@@ -363,6 +365,7 @@ padding: 94px 0 34px;
 
 .about-title {
   padding-bottom: 4px;
+  margin-top: 20px;
 
   color: var(--primary-text-color);
   
