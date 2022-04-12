@@ -204,6 +204,7 @@ a.header-link.current.link {
   margin-right: 30px; 
 }
 
+
 /*features*/
 
 .features-list {
@@ -307,7 +308,7 @@ margin: 94px 0 34px;
 .about-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom:94px ;
+  margin-bottom:94px;
 }
 
 .about-pre-title {
@@ -384,7 +385,7 @@ margin: 94px 0 34px;
 
 
 .work-heading {
-  padding: 30px 0 10px;
+  margin: 30px 0 10px;
   margin-bottom: var(--typical-gap);
   color: var(--primary-text-color);
   font-weight: 500;
@@ -394,7 +395,7 @@ margin: 94px 0 34px;
   letter-spacing: 0.03em;
 }
 .work-after-heading {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 19px;
