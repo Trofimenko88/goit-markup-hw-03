@@ -14,6 +14,7 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto; 
+  outline: 2px solid tomato;
 }
 
 p,
@@ -311,11 +312,11 @@ margin: 94px 0 34px;
 
 .about-pre-title {
   color: var(--title-text-color);
-  padding: 0 24px 20px;
+  margin: 0 24px 20px;
 
 }
 .about-title {
-  padding: 20px 24px 4px;
+  margin: 20px 24px 4px;
 
   color: var(--primary-text-color);
   
