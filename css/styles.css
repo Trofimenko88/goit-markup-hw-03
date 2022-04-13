@@ -150,7 +150,7 @@ a.header-link.current.link {
   margin-bottom: 30px;
   color: var(--complementary-text-color);
   max-width: 696px;
-
+  text-align: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
