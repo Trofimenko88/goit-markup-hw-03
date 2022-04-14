@@ -149,7 +149,6 @@ a.header-link.current.link {
 .hero-title {
   margin-bottom: 30px;
   color: var(--complementary-text-color);
-  max-width: 696px;
   text-align: center;
   font-weight: 900;
   font-size: 44px;
@@ -157,7 +156,6 @@ a.header-link.current.link {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  
 }
 
 /*button*/
@@ -266,12 +264,16 @@ a.header-link.current.link {
 /*Фильтр кнопок*/
 
 .filter-list {
+  margin-bottom: 34px;
   display: flex;
   margin-left: auto;
   justify-content: center;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
+}
+.filter-btn {
+  padding-top: 94px;
 }
 
 .control-btn {
@@ -309,9 +311,6 @@ a.header-link.current.link {
   overflow: hidden;
 }
 
-.filter {
-margin: 94px 0 34px;
-}
 
 /*Разделы работ*/
 
@@ -323,13 +322,11 @@ margin: 94px 0 34px;
 
 .about-pre-title {
   color: var(--title-text-color);
-  margin: 0 24px 20px;
 
 }
 .about-title {
-  margin: 20px 24px 4px;
-
   color: var(--primary-text-color);
+  margin-bottom: 4px;
   
   font-weight: 700;
   font-size: 18px;
@@ -341,7 +338,6 @@ margin: 94px 0 34px;
 .about-item {
   width: 370px;
   margin-right: 30px;
-  margin-bottom: 30px;
   border: 1px solid #EEEEEE;
 }
 .about-item:nth-child(3n){
@@ -349,6 +345,13 @@ margin: 94px 0 34px;
 }
 .about-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.about-photo {
+  display: block;
+}
+
+.about-section {
+  padding: 20px 24px;
 }
 
   font-size: 16px;
@@ -422,11 +425,8 @@ margin: 94px 0 34px;
   display: block;
 }
 
-/*Footer logo
-.footer {
-  padding: 60px 0 60px;
-}
-*/
+/*Footer logo*/
+
 .container footer footer {
   padding-top: 60px;
 }
