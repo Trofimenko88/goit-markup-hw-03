@@ -323,7 +323,10 @@ a.header-link.current.link {
 
 .about-pre-title {
   color: var(--title-text-color);
-
+  font-size: 16px; 
+  line-height: 1.87;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
 }
 .about-title {
   color: var(--primary-text-color);
@@ -361,11 +364,6 @@ a.header-link.current.link {
   border-bottom: 1px solid #EEEEEE;
 }
 
-  font-size: 16px;
-  line-height: 1.87;
-  /* identical to box height, or 188% */
-  letter-spacing: 0.03em;
-}
 
 /*Наша команда*/
 
